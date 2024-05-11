@@ -2072,7 +2072,7 @@ button.primary,
 .button.primary {
 	background-color: #2a2a2a;
 	box-shadow: none;
-	color: #000000 !important;
+	color: #fff !important;
 }
 
 input[type="submit"].primary:hover,
@@ -2244,7 +2244,7 @@ input[type="search"]:focus,
 input[type="url"]:focus,
 select:focus,
 textarea:focus {
-	border-color: #2ee4bb;
+	border-color: #2a2a2a;
 }
 
 label {
@@ -3403,7 +3403,7 @@ ul.feature-icons li:nth-child(2) {
 }
 
 #wrapper>section>header:before {
-	background: #43d9b8;
+	background: #2a2a2a;
 	content: '';
 	display: block;
 	margin-top: 1rem;
@@ -3418,7 +3418,7 @@ ul.feature-icons li:nth-child(2) {
 
 #wrapper>section>header h1:before,
 #wrapper>section>header h2:before {
-	background: #43d9b8;
+	background: #2a2a2a;
 	content: '';
 	display: block;
 	height: 2px;
@@ -3428,7 +3428,7 @@ ul.feature-icons li:nth-child(2) {
 
 #wrapper>section>header h1:after,
 #wrapper>section>header h2:after {
-	background: #43d9b8;
+	background: #2a2a2a;
 	border-radius: 0.5rem;
 	content: '';
 	display: block;
@@ -3485,7 +3485,7 @@ ul.feature-icons li:nth-child(2) {
 }
 
 #wrapper>section:last-of-type>header:after {
-	background: #43d9b8;
+	background: #2a2a2a;
 	border-radius: 0.5rem;
 	bottom: -1.5rem;
 	content: '';
@@ -4000,4 +4000,16 @@ body.is-ie #wrapper>section>.content>section {
 		padding: 4rem;
 	}
 
+}
+
+.color_change{
+	color: #fff !important;
+}
+
+
+
+@media screen and (width < 1153px) {
+	.color_change  {
+		color: #2a2a2a !important;
+	}
 }
