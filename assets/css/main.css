@@ -3403,7 +3403,7 @@ ul.feature-icons li:nth-child(2) {
 }
 
 #wrapper>section>header:before {
-	background: #2a2a2a;
+	background: #f18627;
 	content: '';
 	display: block;
 	margin-top: 1rem;
@@ -3418,7 +3418,7 @@ ul.feature-icons li:nth-child(2) {
 
 #wrapper>section>header h1:before,
 #wrapper>section>header h2:before {
-	background: #2a2a2a;
+	background: #f18627;
 	content: '';
 	display: block;
 	height: 2px;
@@ -3428,7 +3428,7 @@ ul.feature-icons li:nth-child(2) {
 
 #wrapper>section>header h1:after,
 #wrapper>section>header h2:after {
-	background: #2a2a2a;
+	background: #f18627;
 	border-radius: 0.5rem;
 	content: '';
 	display: block;
@@ -3485,7 +3485,7 @@ ul.feature-icons li:nth-child(2) {
 }
 
 #wrapper>section:last-of-type>header:after {
-	background: #2a2a2a;
+	background: #f18627;
 	border-radius: 0.5rem;
 	bottom: -1.5rem;
 	content: '';
@@ -4002,14 +4002,14 @@ body.is-ie #wrapper>section>.content>section {
 
 }
 
-.color_change{
+.color_change {
 	color: #fff !important;
 }
 
 
 
 @media screen and (width < 1153px) {
-	.color_change  {
+	.color_change {
 		color: #2a2a2a !important;
 	}
 }
